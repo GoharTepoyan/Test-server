@@ -10,7 +10,7 @@ const dbName="todo2024-v-01"
 async function connectToMongo () {
     try {
         await client.connect();
-        console.log('Connected successfully to server');
+        console.log('Connected successfully to Mongo');
         return client.db(dbName)
     } catch (error) {
         console.error('Error connecting to MongoDB', error);
