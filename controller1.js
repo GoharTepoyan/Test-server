@@ -1,4 +1,4 @@
-import { data } from "./index1.js";
+import { data } from "./index.js";
 
 // import { getAdmin1, getModerator1, isAdmin1 } from "./midlewares1.js";
 
